@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <localizationDictionary culture="en">
   <texts>
-     <text name="Offers" value="Offers" />
+   
     <text name="HomePage" value="Home page" />
     <text name="About" value="About" />
     <text name="WelcomeMessage" value="Welcome to boilerplateasp!" />
@@ -62,6 +62,16 @@
     <text name="SuccessfullyRegistered">Successfully registered</text>
     <text name="WaitingForEmailActivation">Your email address should be activated</text>
     <text name="Roles">Roles</text>
+	  
+	    <text name="Offers">Offers</text>
+	    
+	    <text name="Comment">Comment</text>
+	    <text name="Image">Image</text>
+	    <text name="CreateNewOffer">Create new offer</text>
+	    <text name="OfferName">Offer Name</text>
+	    <text name="EditOffer">Edit offer</text>
+	  
+	  
     <text name="DisplayName">Display Name</text>
     <text name="Edit">Edit</text>
     <text name="Delete">Delete</text>
