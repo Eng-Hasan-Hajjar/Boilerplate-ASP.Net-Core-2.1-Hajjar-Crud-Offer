@@ -1,0 +1,726 @@
+DEBUG 2022-11-05 06:31:22,677 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-11-05 06:31:23,070 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-11-05 06:31:23,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.Web.Host.Startup.boilerplateaspWebHostModule, boilerplateasp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspWebCoreModule, boilerplateasp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspApplicationModule, boilerplateasp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspCoreModule, boilerplateasp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.EntityFrameworkCore.boilerplateaspEntityFrameworkModule, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:23,118 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-11-05 06:31:23,303 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:31:23,303 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:31:23,303 [1    ] o.Configuration.LanguageManagementConfig - Converted boilerplateasp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:31:23,303 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:31:23,824 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: boilerplateasp.EntityFrameworkCore.boilerplateaspDbContext, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:31:25,293 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-11-05 06:31:25,340 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-11-05 06:31:25,365 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-11-05 06:31:25,403 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: boilerplateasp
+DEBUG 2022-11-05 06:31:25,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-11-05 06:31:25,755 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-11-05 06:31:25,996 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2022-11-05 06:31:26,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2022-11-05 06:31:26,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-11-05 06:31:26,110 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.CreateUserDto
+DEBUG 2022-11-05 06:31:26,111 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.UserDto
+DEBUG 2022-11-05 06:31:26,112 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-11-05 06:31:26,112 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-11-05 06:31:26,112 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Roles.Dto.PermissionDto
+DEBUG 2022-11-05 06:31:26,112 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-11-05 06:31:26,112 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.TenantDto
+INFO  2022-11-05 06:31:45,442 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2022-11-05 06:31:45,442 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2022-11-05 06:31:45,570 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.3049ms 200 
+INFO  2022-11-05 06:31:45,982 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-05 06:31:51,386 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)
+INFO  2022-11-05 06:31:53,552 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) - Validation state: Valid
+INFO  2022-11-05 06:31:53,560 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.4923ms.
+INFO  2022-11-05 06:31:53,692 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-11-05 06:31:53,719 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) in 2325.6465ms
+INFO  2022-11-05 06:31:53,724 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-05 06:31:53,753 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8322.2051ms 302 
+INFO  2022-11-05 06:31:54,076 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2022-11-05 06:31:54,127 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.7241ms 301 
+INFO  2022-11-05 06:31:54,130 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-11-05 06:31:55,183 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1052.1717ms 200 text/html
+INFO  2022-11-05 06:31:55,477 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2022-11-05 06:31:55,485 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2022-11-05 06:31:55,490 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2022-11-05 06:31:55,492 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2022-11-05 06:31:55,545 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2022-11-05 06:31:55,598 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\Hasan\Downloads\ASP.net core projects\boilerplateasp\4.8.0\aspnet-core\src\boilerplateasp.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2022-11-05 06:31:55,601 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 110.795ms 200 application/javascript
+INFO  2022-11-05 06:31:55,609 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\Hasan\Downloads\ASP.net core projects\boilerplateasp\4.8.0\aspnet-core\src\boilerplateasp.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2022-11-05 06:31:55,611 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.4304ms 200 application/javascript
+INFO  2022-11-05 06:31:55,734 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2022-11-05 06:31:55,764 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 271.2129ms 200 application/javascript
+INFO  2022-11-05 06:31:55,772 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2022-11-05 06:31:55,779 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 309.1497ms 200 text/css
+INFO  2022-11-05 06:31:56,390 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2022-11-05 06:31:56,393 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 913.3285ms 200 application/javascript
+INFO  2022-11-05 06:31:56,994 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-11-05 06:31:57,300 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 304.1645ms 200 application/json;charset=utf-8
+INFO  2022-11-05 06:32:04,072 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2022-11-05 06:32:04,101 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2022-11-05 06:32:04,107 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.282ms 200 image/png
+INFO  2022-11-05 06:32:35,102 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-11-05 06:32:35,141 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.6468ms 200 application/json;charset=utf-8
+INFO  2022-11-05 06:32:43,548 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetRolesAsync  
+INFO  2022-11-05 06:32:43,566 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application)'
+INFO  2022-11-05 06:32:43,640 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRolesAsync", controller = "Role"}. Executing action boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application)
+WARN  2022-11-05 06:32:45,459 [14   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2022-11-05 06:32:45,490 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2022-11-05 06:32:45,544 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 06:32:45,581 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application) in 1938.5772ms
+INFO  2022-11-05 06:32:45,585 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application)'
+INFO  2022-11-05 06:32:45,589 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2046.1122ms 401 application/json; charset=utf-8
+INFO  2022-11-05 06:32:45,740 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2022-11-05 06:32:45,750 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.0032ms 404 
+INFO  2022-11-05 06:32:51,434 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetRolesAsync  
+INFO  2022-11-05 06:32:51,445 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application)'
+INFO  2022-11-05 06:32:51,459 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRolesAsync", controller = "Role"}. Executing action boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application)
+WARN  2022-11-05 06:32:51,462 [16   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2022-11-05 06:32:51,465 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2022-11-05 06:32:51,468 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 06:32:51,473 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application) in 8.7391ms
+INFO  2022-11-05 06:32:51,477 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application)'
+INFO  2022-11-05 06:32:51,490 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.4134ms 401 application/json; charset=utf-8
+INFO  2022-11-05 06:32:57,048 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetRolesAsync  
+INFO  2022-11-05 06:32:57,081 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application)'
+INFO  2022-11-05 06:32:57,089 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRolesAsync", controller = "Role"}. Executing action boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application)
+WARN  2022-11-05 06:32:57,091 [16   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2022-11-05 06:32:57,093 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2022-11-05 06:32:57,096 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 06:32:57,101 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application) in 7.5759ms
+INFO  2022-11-05 06:32:57,106 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Roles.RoleAppService.GetRolesAsync (boilerplateasp.Application)'
+INFO  2022-11-05 06:32:57,111 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.6868ms 401 application/json; charset=utf-8
+INFO  2022-11-05 06:33:22,209 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2022-11-05 06:33:22,213 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Roles.RoleAppService.GetAllPermissions (boilerplateasp.Application)'
+INFO  2022-11-05 06:33:22,225 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action boilerplateasp.Roles.RoleAppService.GetAllPermissions (boilerplateasp.Application)
+WARN  2022-11-05 06:33:22,228 [7    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2022-11-05 06:33:22,230 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2022-11-05 06:33:22,233 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 06:33:22,263 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Roles.RoleAppService.GetAllPermissions (boilerplateasp.Application) in 7.4959ms
+INFO  2022-11-05 06:33:22,266 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Roles.RoleAppService.GetAllPermissions (boilerplateasp.Application)'
+INFO  2022-11-05 06:33:22,269 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.8942ms 401 application/json; charset=utf-8
+INFO  2022-11-05 06:33:24,730 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2022-11-05 06:33:24,733 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Roles.RoleAppService.GetAllPermissions (boilerplateasp.Application)'
+INFO  2022-11-05 06:33:24,742 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action boilerplateasp.Roles.RoleAppService.GetAllPermissions (boilerplateasp.Application)
+WARN  2022-11-05 06:33:24,745 [16   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2022-11-05 06:33:24,748 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2022-11-05 06:33:24,751 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 06:33:24,758 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Roles.RoleAppService.GetAllPermissions (boilerplateasp.Application) in 9.8339ms
+INFO  2022-11-05 06:33:24,762 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Roles.RoleAppService.GetAllPermissions (boilerplateasp.Application)'
+INFO  2022-11-05 06:33:24,766 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.5108ms 401 application/json; charset=utf-8
+DEBUG 2022-11-05 06:33:50,348 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-11-05 06:33:50,395 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-11-05 06:33:50,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.Web.Host.Startup.boilerplateaspWebHostModule, boilerplateasp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,437 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspWebCoreModule, boilerplateasp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,438 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspApplicationModule, boilerplateasp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,438 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspCoreModule, boilerplateasp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,439 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,439 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,439 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,440 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,440 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.EntityFrameworkCore.boilerplateaspEntityFrameworkModule, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:50,446 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-11-05 06:33:50,561 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:33:50,561 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:33:50,561 [1    ] o.Configuration.LanguageManagementConfig - Converted boilerplateasp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:33:50,561 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:33:51,169 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: boilerplateasp.EntityFrameworkCore.boilerplateaspDbContext, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:33:52,046 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-11-05 06:33:52,113 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-11-05 06:33:52,135 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-11-05 06:33:52,148 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: boilerplateasp
+DEBUG 2022-11-05 06:33:52,159 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-11-05 06:33:52,270 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-11-05 06:33:52,329 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2022-11-05 06:33:52,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2022-11-05 06:33:52,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-11-05 06:33:52,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.CreateUserDto
+DEBUG 2022-11-05 06:33:52,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.UserDto
+DEBUG 2022-11-05 06:33:52,439 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-11-05 06:33:52,439 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-11-05 06:33:52,439 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Roles.Dto.PermissionDto
+DEBUG 2022-11-05 06:33:52,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-11-05 06:33:52,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.TenantDto
+INFO  2022-11-05 06:34:00,030 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2022-11-05 06:34:00,392 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-05 06:34:02,389 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)
+INFO  2022-11-05 06:34:03,297 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) - Validation state: Valid
+INFO  2022-11-05 06:34:03,304 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.1997ms.
+INFO  2022-11-05 06:34:03,728 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-11-05 06:34:03,759 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) in 1359.2875ms
+INFO  2022-11-05 06:34:03,762 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-05 06:34:03,894 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3868.0617ms 302 
+INFO  2022-11-05 06:34:03,902 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-11-05 06:34:04,329 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 426.6692ms 200 text/html
+INFO  2022-11-05 06:34:04,904 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-11-05 06:34:05,340 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 435.9878ms 200 application/json;charset=utf-8
+DEBUG 2022-11-05 06:34:35,317 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-11-05 06:34:35,471 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-11-05 06:34:35,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.Web.Host.Startup.boilerplateaspWebHostModule, boilerplateasp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,517 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspWebCoreModule, boilerplateasp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspApplicationModule, boilerplateasp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspCoreModule, boilerplateasp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,519 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,520 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.EntityFrameworkCore.boilerplateaspEntityFrameworkModule, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:35,530 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-11-05 06:34:35,700 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:34:35,700 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:34:35,700 [1    ] o.Configuration.LanguageManagementConfig - Converted boilerplateasp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:34:35,701 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 06:34:36,410 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: boilerplateasp.EntityFrameworkCore.boilerplateaspDbContext, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 06:34:38,510 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-11-05 06:34:38,562 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-11-05 06:34:38,594 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-11-05 06:34:38,607 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: boilerplateasp
+DEBUG 2022-11-05 06:34:38,621 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-11-05 06:34:39,122 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-11-05 06:34:39,498 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2022-11-05 06:34:39,581 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2022-11-05 06:34:39,581 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-11-05 06:34:39,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.CreateUserDto
+DEBUG 2022-11-05 06:34:39,601 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.UserDto
+DEBUG 2022-11-05 06:34:39,602 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-11-05 06:34:39,602 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-11-05 06:34:39,603 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Roles.Dto.PermissionDto
+DEBUG 2022-11-05 06:34:39,603 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-11-05 06:34:39,603 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.TenantDto
+INFO  2022-11-05 06:34:48,425 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2022-11-05 06:34:48,950 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-05 06:34:55,111 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)
+INFO  2022-11-05 06:34:56,855 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) - Validation state: Valid
+INFO  2022-11-05 06:34:56,863 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.9858ms.
+INFO  2022-11-05 06:34:57,269 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-11-05 06:34:57,295 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) in 2175.1022ms
+INFO  2022-11-05 06:34:57,303 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-05 06:34:57,416 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9002.7968ms 302 
+INFO  2022-11-05 06:34:57,422 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-11-05 06:34:57,780 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 358.7871ms 200 text/html
+INFO  2022-11-05 06:34:58,032 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-11-05 06:34:58,506 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 474.0819ms 200 application/json;charset=utf-8
+DEBUG 2022-11-05 10:25:44,971 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-11-05 10:25:45,373 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-11-05 10:25:45,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.Web.Host.Startup.boilerplateaspWebHostModule, boilerplateasp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,437 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspWebCoreModule, boilerplateasp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,438 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspApplicationModule, boilerplateasp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,439 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspCoreModule, boilerplateasp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,439 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,439 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,440 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.EntityFrameworkCore.boilerplateaspEntityFrameworkModule, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,441 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:45,446 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-11-05 10:25:45,595 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 10:25:45,595 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 10:25:45,595 [1    ] o.Configuration.LanguageManagementConfig - Converted boilerplateasp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 10:25:45,595 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-05 10:25:47,016 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: boilerplateasp.EntityFrameworkCore.boilerplateaspDbContext, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-05 10:25:49,487 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-11-05 10:25:49,943 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-11-05 10:25:50,109 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-11-05 10:25:50,160 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: boilerplateasp
+DEBUG 2022-11-05 10:25:50,172 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-11-05 10:25:50,977 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-11-05 10:25:51,324 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2022-11-05 10:25:51,647 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2022-11-05 10:25:51,647 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-11-05 10:25:51,711 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.CreateUserDto
+DEBUG 2022-11-05 10:25:51,740 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.UserDto
+DEBUG 2022-11-05 10:25:51,741 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-11-05 10:25:51,741 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-11-05 10:25:51,741 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Roles.Dto.PermissionDto
+DEBUG 2022-11-05 10:25:51,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-11-05 10:25:51,742 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.TenantDto
+INFO  2022-11-05 10:26:05,011 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2022-11-05 10:26:05,011 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2022-11-05 10:26:05,274 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 269.956ms 200 
+INFO  2022-11-05 10:26:05,733 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-05 10:26:13,203 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)
+INFO  2022-11-05 10:26:14,931 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) - Validation state: Valid
+INFO  2022-11-05 10:26:14,941 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.7402ms.
+INFO  2022-11-05 10:26:15,829 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-11-05 10:26:15,851 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) in 2638.4852ms
+INFO  2022-11-05 10:26:15,855 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-05 10:26:15,888 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10894.492ms 302 
+INFO  2022-11-05 10:26:16,224 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-11-05 10:26:16,648 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 422.6026ms 200 text/html
+INFO  2022-11-05 10:26:17,461 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2022-11-05 10:26:17,492 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2022-11-05 10:26:17,502 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.6783ms 304 application/javascript
+INFO  2022-11-05 10:26:17,651 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2022-11-05 10:26:17,654 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2022-11-05 10:26:17,657 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.6561ms 304 application/javascript
+INFO  2022-11-05 10:26:18,196 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-11-05 10:26:18,731 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 536.1667ms 200 application/json;charset=utf-8
+INFO  2022-11-05 10:41:37,958 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/Get  
+INFO  2022-11-05 10:41:37,987 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application)'
+INFO  2022-11-05 10:41:38,086 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Get", controller = "User"}. Executing action boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application)
+INFO  2022-11-05 10:41:38,903 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application) with arguments (Abp.Application.Services.Dto.EntityDto`1[System.Int64]) - Validation state: Valid
+WARN  2022-11-05 10:41:40,224 [41   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.Get(EntityDto`1 input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2022-11-05 10:41:40,309 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:41:40,351 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application) in 2261.3225ms
+INFO  2022-11-05 10:41:40,355 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application)'
+INFO  2022-11-05 10:41:40,358 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2402.2736ms 401 application/json; charset=utf-8
+INFO  2022-11-05 10:42:45,309 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2022-11-05 10:42:45,337 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:42:45,340 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:42:45,350 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core)'
+INFO  2022-11-05 10:42:45,364 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core)
+INFO  2022-11-05 10:42:45,367 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:42:45,370 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:42:46,177 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core) with arguments (boilerplateasp.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2022-11-05 10:42:47,256 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1076.3239ms.
+INFO  2022-11-05 10:42:47,269 [43   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:42:47,301 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core) in 1934.1074ms
+INFO  2022-11-05 10:42:47,304 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core)'
+INFO  2022-11-05 10:42:47,309 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2003.3699ms 200 application/json; charset=utf-8
+INFO  2022-11-05 10:43:13,830 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 690
+INFO  2022-11-05 10:43:13,837 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:13,839 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:13,843 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:13,855 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)
+INFO  2022-11-05 10:43:13,857 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:13,872 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2022-11-05 10:43:14,021 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2022-11-05 10:43:14,024 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2022-11-05 10:43:14,024 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field TenancyName must be a string with a maximum length of 64. (TenancyName)
+INFO  2022-11-05 10:43:14,065 [49   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:14,070 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application) in 211.9802ms
+INFO  2022-11-05 10:43:14,073 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:14,076 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 247.5332ms 400 application/json; charset=utf-8
+INFO  2022-11-05 10:43:16,688 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 690
+INFO  2022-11-05 10:43:16,690 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:16,692 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:16,696 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:16,703 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)
+INFO  2022-11-05 10:43:16,706 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:16,708 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2022-11-05 10:43:16,771 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2022-11-05 10:43:16,772 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2022-11-05 10:43:16,772 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field TenancyName must be a string with a maximum length of 64. (TenancyName)
+INFO  2022-11-05 10:43:16,775 [49   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:16,778 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application) in 71.5846ms
+INFO  2022-11-05 10:43:16,781 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:16,784 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96.8855ms 400 application/json; charset=utf-8
+INFO  2022-11-05 10:43:27,451 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 690
+INFO  2022-11-05 10:43:27,454 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:27,456 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:27,460 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:27,469 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)
+INFO  2022-11-05 10:43:27,472 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:27,475 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2022-11-05 10:43:27,487 [46   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2022-11-05 10:43:27,488 [46   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2022-11-05 10:43:27,488 [46   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field TenancyName must be a string with a maximum length of 64. (TenancyName)
+INFO  2022-11-05 10:43:27,491 [46   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:27,495 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application) in 22.5125ms
+INFO  2022-11-05 10:43:27,498 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:27,501 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.9089ms 400 application/json; charset=utf-8
+INFO  2022-11-05 10:43:28,319 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 690
+INFO  2022-11-05 10:43:28,322 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:28,324 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:28,327 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:28,336 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)
+INFO  2022-11-05 10:43:28,339 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:28,341 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2022-11-05 10:43:28,356 [43   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2022-11-05 10:43:28,357 [43   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2022-11-05 10:43:28,357 [43   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field TenancyName must be a string with a maximum length of 64. (TenancyName)
+INFO  2022-11-05 10:43:28,360 [43   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:28,363 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application) in 24.0829ms
+INFO  2022-11-05 10:43:28,366 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:28,370 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.831ms 400 application/json; charset=utf-8
+INFO  2022-11-05 10:43:33,726 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 690
+INFO  2022-11-05 10:43:33,729 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:33,732 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:33,735 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:33,741 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)
+INFO  2022-11-05 10:43:33,743 [46   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:33,747 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2022-11-05 10:43:33,761 [48   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2022-11-05 10:43:33,762 [48   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2022-11-05 10:43:33,762 [48   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field TenancyName must be a string with a maximum length of 64. (TenancyName)
+INFO  2022-11-05 10:43:33,765 [48   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:33,769 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application) in 24.5178ms
+INFO  2022-11-05 10:43:33,773 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:33,777 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.4009ms 400 application/json; charset=utf-8
+INFO  2022-11-05 10:43:34,607 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 690
+INFO  2022-11-05 10:43:34,611 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:34,614 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:34,619 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:34,625 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)
+INFO  2022-11-05 10:43:34,628 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:34,630 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2022-11-05 10:43:34,644 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2022-11-05 10:43:34,644 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2022-11-05 10:43:34,644 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field TenancyName must be a string with a maximum length of 64. (TenancyName)
+INFO  2022-11-05 10:43:34,647 [49   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:34,652 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application) in 22.4287ms
+INFO  2022-11-05 10:43:34,656 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:34,660 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.7721ms 400 application/json; charset=utf-8
+INFO  2022-11-05 10:43:34,886 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 690
+INFO  2022-11-05 10:43:34,889 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:34,891 [49   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:34,894 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:34,901 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)
+INFO  2022-11-05 10:43:34,904 [49   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:34,906 [49   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2022-11-05 10:43:34,930 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2022-11-05 10:43:34,931 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2022-11-05 10:43:34,931 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field TenancyName must be a string with a maximum length of 64. (TenancyName)
+INFO  2022-11-05 10:43:34,934 [49   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:34,937 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application) in 33.2834ms
+INFO  2022-11-05 10:43:34,940 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:34,944 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.6992ms 400 application/json; charset=utf-8
+INFO  2022-11-05 10:43:35,056 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 690
+INFO  2022-11-05 10:43:35,059 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:35,061 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:35,064 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:35,071 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)
+INFO  2022-11-05 10:43:35,074 [43   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:35,076 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2022-11-05 10:43:35,085 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2022-11-05 10:43:35,086 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2022-11-05 10:43:35,086 [49   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field TenancyName must be a string with a maximum length of 64. (TenancyName)
+INFO  2022-11-05 10:43:35,089 [49   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:35,091 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application) in 17.6796ms
+INFO  2022-11-05 10:43:35,094 [49   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:35,097 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.7413ms 400 application/json; charset=utf-8
+INFO  2022-11-05 10:43:35,446 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 690
+INFO  2022-11-05 10:43:35,449 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:35,451 [48   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:35,454 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:35,460 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)
+INFO  2022-11-05 10:43:35,462 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:35,464 [48   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2022-11-05 10:43:35,477 [50   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2022-11-05 10:43:35,478 [50   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2022-11-05 10:43:35,478 [50   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field TenancyName must be a string with a maximum length of 64. (TenancyName)
+INFO  2022-11-05 10:43:35,481 [50   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:35,484 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application) in 21.4066ms
+INFO  2022-11-05 10:43:35,487 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Authorization.Accounts.AccountAppService.IsTenantAvailable (boilerplateasp.Application)'
+INFO  2022-11-05 10:43:35,489 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.2166ms 400 application/json; charset=utf-8
+INFO  2022-11-05 10:43:53,511 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2022-11-05 10:43:53,515 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:53,517 [48   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:53,522 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core)'
+INFO  2022-11-05 10:43:53,528 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core)
+INFO  2022-11-05 10:43:53,530 [48   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-05 10:43:53,532 [48   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-05 10:43:53,538 [48   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core) with arguments (boilerplateasp.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2022-11-05 10:43:53,593 [49   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 51.7739ms.
+INFO  2022-11-05 10:43:53,612 [50   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:43:53,615 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core) in 84.4057ms
+INFO  2022-11-05 10:43:53,617 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Controllers.TokenAuthController.Authenticate (boilerplateasp.Web.Core)'
+INFO  2022-11-05 10:43:53,620 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.6345ms 200 application/json; charset=utf-8
+INFO  2022-11-05 10:44:33,366 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/Get  
+INFO  2022-11-05 10:44:33,458 [43   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-11-05 10:44:33,523 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application)'
+INFO  2022-11-05 10:44:33,531 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Get", controller = "User"}. Executing action boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application)
+INFO  2022-11-05 10:44:33,539 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application) with arguments (Abp.Application.Services.Dto.EntityDto`1[System.Int64]) - Validation state: Valid
+ERROR 2022-11-05 10:44:34,618 [50   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: boilerplateasp.Authorization.Users.User, id: 0
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: boilerplateasp.Authorization.Users.User, id: 0
+   at boilerplateasp.Users.UserAppService.GetEntityByIdAsync(Int64 id) in C:\Users\Hasan\Downloads\ASP.net core projects\boilerplateasp\4.8.0\aspnet-core\src\boilerplateasp.Application\Users\UserAppService.cs:line 154
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at Abp.Application.Services.AsyncCrudAppService`8.Get(TGetInput input)
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2022-11-05 10:44:34,623 [50   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-05 10:44:34,626 [50   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application) in 1091.4423ms
+INFO  2022-11-05 10:44:34,633 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Users.UserAppService.Get (boilerplateasp.Application)'
+INFO  2022-11-05 10:44:34,638 [50   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1270.5338ms 404 application/json; charset=utf-8
+DEBUG 2022-11-06 01:06:36,519 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-11-06 01:06:36,744 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-11-06 01:06:36,768 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.Web.Host.Startup.boilerplateaspWebHostModule, boilerplateasp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspWebCoreModule, boilerplateasp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspApplicationModule, boilerplateasp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.boilerplateaspCoreModule, boilerplateasp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: boilerplateasp.EntityFrameworkCore.boilerplateaspEntityFrameworkModule, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:36,804 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-11-06 01:06:36,919 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-06 01:06:36,919 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-06 01:06:36,919 [1    ] o.Configuration.LanguageManagementConfig - Converted boilerplateasp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-06 01:06:36,919 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-11-06 01:06:37,503 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: boilerplateasp.EntityFrameworkCore.boilerplateaspDbContext, boilerplateasp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-11-06 01:06:39,173 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-11-06 01:06:39,205 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-11-06 01:06:39,220 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-11-06 01:06:39,241 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: boilerplateasp
+DEBUG 2022-11-06 01:06:39,251 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-11-06 01:06:39,597 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-11-06 01:06:39,838 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2022-11-06 01:06:39,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2022-11-06 01:06:39,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-11-06 01:06:39,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.CreateUserDto
+DEBUG 2022-11-06 01:06:39,909 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Users.Dto.UserDto
+DEBUG 2022-11-06 01:06:39,910 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-11-06 01:06:39,910 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-11-06 01:06:39,910 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Roles.Dto.PermissionDto
+DEBUG 2022-11-06 01:06:39,910 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.Offers.Dto.OfferDto
+DEBUG 2022-11-06 01:06:39,910 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-11-06 01:06:39,910 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - boilerplateasp.MultiTenancy.Dto.TenantDto
+INFO  2022-11-06 01:06:50,621 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2022-11-06 01:06:50,621 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2022-11-06 01:06:50,744 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 138.0575ms 200 
+INFO  2022-11-06 01:06:51,059 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-06 01:06:55,913 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)
+INFO  2022-11-06 01:06:57,361 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) - Validation state: Valid
+INFO  2022-11-06 01:06:57,370 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.9912ms.
+INFO  2022-11-06 01:06:57,536 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-11-06 01:06:57,552 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host) in 1630.5744ms
+INFO  2022-11-06 01:06:57,556 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Web.Host.Controllers.HomeController.Index (boilerplateasp.Web.Host)'
+INFO  2022-11-06 01:06:57,579 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6976.9109ms 302 
+INFO  2022-11-06 01:06:57,593 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-11-06 01:06:57,885 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 291.334ms 200 text/html
+INFO  2022-11-06 01:06:58,013 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2022-11-06 01:06:58,032 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2022-11-06 01:06:58,110 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2022-11-06 01:06:58,111 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2022-11-06 01:06:58,126 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 94.1819ms 304 application/javascript
+INFO  2022-11-06 01:06:58,132 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 131.2711ms 304 application/javascript
+INFO  2022-11-06 01:06:58,530 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-11-06 01:06:58,716 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-11-06 01:06:59,025 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 503.8835ms 200 application/json;charset=utf-8
+INFO  2022-11-06 01:08:06,475 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Offer/Create application/json-patch+json 74
+INFO  2022-11-06 01:08:06,489 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-06 01:08:06,493 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-06 01:08:06,504 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-11-06 01:08:06,513 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'boilerplateasp.Offers.OfferAppService.Create (boilerplateasp.Application)'
+INFO  2022-11-06 01:08:06,543 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Offer"}. Executing action boilerplateasp.Offers.OfferAppService.Create (boilerplateasp.Application)
+INFO  2022-11-06 01:08:06,545 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-11-06 01:08:06,548 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-11-06 01:08:07,371 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method boilerplateasp.Offers.OfferAppService.Create (boilerplateasp.Application) with arguments (boilerplateasp.Offers.Dto.OfferDto) - Validation state: Valid
+WARN  2022-11-06 01:08:08,384 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - Required permissions are not granted. At least one of these permissions must be granted: Offers
+Abp.Authorization.AbpAuthorizationException: Required permissions are not granted. At least one of these permissions must be granted: Offers
+   at Abp.Authorization.PermissionCheckerExtensions.AuthorizeAsync(IPermissionChecker permissionChecker, Boolean requireAll, String[] permissionNames) in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionCheckerExtensions.cs:line 195
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 47
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.OfferAppServiceProxy.Create(OfferDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2022-11-06 01:08:08,425 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-11-06 01:08:08,519 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action boilerplateasp.Offers.OfferAppService.Create (boilerplateasp.Application) in 1967.408ms
+INFO  2022-11-06 01:08:08,528 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'boilerplateasp.Offers.OfferAppService.Create (boilerplateasp.Application)'
+INFO  2022-11-06 01:08:08,642 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2076.0455ms 403 application/json; charset=utf-8
